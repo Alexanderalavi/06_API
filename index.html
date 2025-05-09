@@ -15,20 +15,21 @@
     <section>
         
             <h2>Pesos CLP</h2>
-            <input type="number" id="ingreso">
+            <input type="number" id="ingreso" inputmode="numeric" placeholder="Ingrese el monto en CLP">
             <h3>Moneda a Convertir:</h3>
             <select name="monedas" id="monedas">
+                <option disabled selected>Seleccione una Moneda</option>
                 <option value="uf">UF</option>
                 <option value="dolar">Dolar</option>
                 <option value="euro">Euro</option>
                 <option value="utm">UTM</option>
             </select>
             <button id="btnConvertir">Convertir</button>
-            <p>Resultado: $<span id="resultado"></span></p>
+            <p id="resultado">...</p>
 
     </section>
 
-
+<canvas></canvas>
 
 
 

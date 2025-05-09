@@ -12,7 +12,7 @@ const obtenerMoneda = async () =>{
         const monedaValor = data.serie[0].valor
         const conversion = (input / monedaValor).toFixed(3)
 
-        resultado.textContent = `${conversion} ${moneda.toUpperCase()}`
+        resultado.textContent = `El resultado es $ ${conversion} ${moneda.toUpperCase()}`
       
 
     } catch (error) {

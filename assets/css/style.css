@@ -1,0 +1,58 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin: 0;
+    background-color: rgb(33, 37, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+hr{
+    width: 550px;
+    height: 2px;
+    background-color: rgb(29, 65, 75);
+    border: none;
+}
+
+section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   row-gap: 10px;
+   background-color: rgb(108, 117, 125);
+   width: 300px;
+   color: white;
+   border-radius: 4%;
+}
+
+input{
+    
+    border: 1px solid gray;
+    border-radius: 3px;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+select{
+    text-align: center;
+    border-radius: 4px;
+    height: 30px;
+    border: 1px solid gray;
+    width: 200px;
+}
+
+button{
+    color: white;
+    border-radius: 2px;
+    border: none;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(13, 202, 240);
+}
